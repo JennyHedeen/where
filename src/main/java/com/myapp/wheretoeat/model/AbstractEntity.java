@@ -26,4 +26,8 @@ public abstract class AbstractEntity {
     public void setName(String name) {
         this.name = name;
     }
+
+    public boolean isNew() {
+        return this.id == null;
+    }
 }
