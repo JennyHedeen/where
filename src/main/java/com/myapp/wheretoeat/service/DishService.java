@@ -14,7 +14,7 @@ import static com.myapp.wheretoeat.util.ValidationUtil.checkNotFoundWithId;
 @Service
 public class DishService {
 
-//    @Autowired
+    @Autowired
     private DishRepository repository;
 
     public Dish create(Dish dish) {

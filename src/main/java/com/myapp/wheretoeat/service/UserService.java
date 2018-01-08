@@ -2,7 +2,6 @@ package com.myapp.wheretoeat.service;
 
 import com.myapp.wheretoeat.model.User;
 import com.myapp.wheretoeat.repository.UserRepository;
-import com.myapp.wheretoeat.repository.jdbc.UserJdbcRepository;
 import com.myapp.wheretoeat.util.exception.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,8 +15,7 @@ import static com.myapp.wheretoeat.util.ValidationUtil.checkNotFoundWithId;
 public class UserService {
 
     @Autowired
-//    private UserRepository repository;
-    private UserJdbcRepository repository;
+    private UserRepository repository;
 
     public User create(User user) {
         return repository.save(user);
