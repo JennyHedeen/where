@@ -1,9 +1,11 @@
 package com.myapp.wheretoeat.repository;
 
 import com.myapp.wheretoeat.model.Dish;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public class DishRepository {
 
     public Dish save(Dish dish) {

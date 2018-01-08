@@ -1,10 +1,13 @@
 package com.myapp.wheretoeat.repository;
 
 import com.myapp.wheretoeat.model.Restaurant;
+import org.springframework.stereotype.Repository;
 
 import java.util.Date;
 import java.util.List;
 
+
+@Repository
 public class RestaurantRepository {
 
     public Restaurant save(Restaurant restaurant) {

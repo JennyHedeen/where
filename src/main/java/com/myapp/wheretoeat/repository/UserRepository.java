@@ -1,9 +1,12 @@
 package com.myapp.wheretoeat.repository;
 
 import com.myapp.wheretoeat.model.User;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+
+@Repository
 public class UserRepository {
 
     public User save(User user) {

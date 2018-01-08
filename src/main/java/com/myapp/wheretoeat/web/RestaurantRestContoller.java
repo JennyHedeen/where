@@ -4,6 +4,8 @@ import com.myapp.wheretoeat.model.Restaurant;
 import com.myapp.wheretoeat.service.RestaurantService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 
 import java.util.Date;
 import java.util.List;
@@ -11,9 +13,12 @@ import java.util.List;
 import static com.myapp.wheretoeat.util.ValidationUtil.assureIdConsistent;
 import static com.myapp.wheretoeat.util.ValidationUtil.checkNew;
 
+
+@Controller
 public class RestaurantRestContoller {
     protected final Logger log = LoggerFactory.getLogger(getClass());
 
+    @Autowired
     private RestaurantService service;
 
 
