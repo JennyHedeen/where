@@ -6,7 +6,7 @@
 
     <context:annotation-config/>
 
-    <context:component-scan base-package="com.myapp.**.repository"/>
+    <context:component-scan base-package="com.myapp.**.repository.jdbc"/>
 
     <context:component-scan base-package="com.myapp.**.service"/>
 
