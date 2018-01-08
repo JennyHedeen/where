@@ -6,7 +6,7 @@
     <jmxConfigurator/>
 
     <appender name="file" class="ch.qos.logback.core.FileAppender">
-        <file>/home/john/work/java/log/wheretoeat/where-to-eat.log</file>
+        <file>/home/john/work/java/wheretoeat/log/where-to-eat.log</file>
 
         <encoder>
             <charset>UTF-8</charset>

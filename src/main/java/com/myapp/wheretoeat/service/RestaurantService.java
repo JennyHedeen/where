@@ -15,7 +15,7 @@ import static com.myapp.wheretoeat.util.ValidationUtil.checkNotFoundWithId;
 @Service
 public class RestaurantService {
 
-    @Autowired
+//    @Autowired
     private RestaurantRepository repository;
 
     public Restaurant create(Restaurant dish) {

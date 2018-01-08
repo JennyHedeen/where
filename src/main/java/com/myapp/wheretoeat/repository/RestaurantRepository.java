@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.List;
 
 
-@Repository
+//@Repository
 public class RestaurantRepository {
 
     public Restaurant save(Restaurant restaurant) {
